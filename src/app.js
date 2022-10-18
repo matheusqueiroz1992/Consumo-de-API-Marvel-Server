@@ -25,6 +25,18 @@ try {
 }
 })
 
+app.post("/auth/signup",async (req, res) => {
+  try {
+    const { name, email, password } = req.body;
 
+    console.log(req.body);
+
+    res.json({
+
+  });
+} catch (err){
+
+}
+});
 
 export default app
